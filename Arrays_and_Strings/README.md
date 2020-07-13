@@ -1,10 +1,10 @@
-#**Arrays and String**
+# **Arrays and String**
 
-##**HashTables**
+## **HashTables**
 
 A HashTable maps keys to values for high efficient lookup.
 
-####**Implementation**
+#### **Implementation**
 
 Can be implemented using a array of LinkedList and a Hash function
 	
@@ -14,11 +14,11 @@ Can be implemented using a array of LinkedList and a Hash function
 
 **Time complexity : worst case O(N) , best case O(1)**
 
-####Alternate Implementation
+#### Alternate Implementation
 Use a binary search tree instead of linked list which gives us O(log n) look up time.
 The keys are also stored in an ordered manner.
 
-##**ArrayList and Resizable Arrays**
+## **ArrayList and Resizable Arrays**
 
 Most language has array as resizable. Java has fixed size and can't be changed once initialized.
 In an Arraylist, the array resizes still maintaining the O(1) retrieval. Typically, when the array is 50% full, the size is doubled.
@@ -30,6 +30,6 @@ Computing - N/2 + N/4 + N/8 + …+2+1 is always less than N. Time complexity : W
 	
 
 
-##**StringBuilder
+## **StringBuilder
 A concatenation of string copy the string character by character each time. The time complexity is O(xn^2)
 A StringBuilder is resizable  array of all the string. The string is only created when required
