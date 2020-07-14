@@ -30,6 +30,6 @@ Computing - N/2 + N/4 + N/8 + …+2+1 is always less than N. Time complexity : W
 	
 
 
-## **StringBuilder
+## **StringBuilder**
 A concatenation of string copy the string character by character each time. The time complexity is O(xn^2)
 A StringBuilder is resizable  array of all the string. The string is only created when required
