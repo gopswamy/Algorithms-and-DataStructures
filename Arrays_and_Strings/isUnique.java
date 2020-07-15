@@ -1,3 +1,7 @@
+/*
+Implement an algorithm to determine if a string has all unique character
+*/
+
 class isUnique{
 
     public static boolean isUniqueMethod(String s){
