@@ -1,3 +1,9 @@
+/*
+Write a method to replace all the space with '%20'. The original length of the string 
+is provided. 
+
+*/
+
 public class URLify {
 
     public static String url(String s,int trueLength){

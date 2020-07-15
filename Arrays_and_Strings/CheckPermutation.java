@@ -1,3 +1,7 @@
+/*
+Given two string check if they permutation of each other
+*/
+
 public class CheckPermutation {
 
     public static boolean check(String s1, String s2){
