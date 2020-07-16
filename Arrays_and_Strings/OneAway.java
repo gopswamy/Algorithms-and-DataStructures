@@ -18,9 +18,10 @@ public class OneAway{
                 }
                 i++;
                 continue;
+            }else{
+                i++;
+                j++;
             }
-            i++;
-            j++;
         }
         return true;
     }
