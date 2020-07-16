@@ -1,4 +1,7 @@
 import java.util.Arrays;
+/*
+Rotate a 2D matrix clockwise once
+*/
 class RotateMatrix{
     
     public static int[][] rotate(int[][] matrix){
